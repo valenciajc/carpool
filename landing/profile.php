@@ -78,15 +78,14 @@ mysqli_close($conn);
       <form action="register.html" class="inline">
         <button class="button">Register as Driver</button>
       </form>
-
+      </form>
       <form action="http://localhost/carpool_app/landing.php" class="inline">
         <button class="button">See all Users</button>
-      </form>
-      
       </form>
 
       </div>
       <div class="text">
+        <br>
         <h3><a href="index.html"> Go Back</a></h3>
       </div>
     </form>
