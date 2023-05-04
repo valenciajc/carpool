@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="profile.css" />
+    <title>My Profile</title>
     <link
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
@@ -77,6 +78,11 @@ mysqli_close($conn);
       <form action="register.html" class="inline">
         <button class="button">Register as Driver</button>
       </form>
+
+      <form action="http://localhost/carpool_app/landing.php" class="inline">
+        <button class="button">See all Users</button>
+      </form>
+      
       </form>
 
       </div>
