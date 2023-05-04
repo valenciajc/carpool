@@ -31,7 +31,7 @@ if (move_uploaded_file($_FILES["car_image"]["tmp_name"], $target_file)) {
     // Insert the data into the database
     $sql = "INSERT INTO car_registration (brand, model, license_number, image) VALUES ('$brand', '$model', '$license', '$target_file')";
     if ($conn->query($sql) === TRUE) {
-      echo "Registration successful";
+      echo "<script>alert('Your Car has been registered succesfully!');window.location.href='http://localhost/carpool_app/landing/profile.php';</script>";
     } else {
       echo "Error: " . $sql . "<br>" . $conn->error;
     }
